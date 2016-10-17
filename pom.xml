@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
+<<<<<<< HEAD
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -21,6 +22,14 @@
 		</dependency>
 
 
+=======
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+>>>>>>> 9be8f218d0f67ca7fd90ef45dfa763d8e5269405
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
